@@ -33,8 +33,8 @@ const config: Config = {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       backgroundImage: {
-        'hero': "url('assets/images/collection-background.png')",
-        'card': "url('assets/images/thumbnail-background.png')",
+        'hero': "url('/public/images/collection-background.png')",
+        'card': "url('/public/images/thumbnail-background.png')",
       },
       screens: {
         "wide": "1440px"
