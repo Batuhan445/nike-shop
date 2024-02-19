@@ -2,7 +2,7 @@ import {CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, 
 import Nav from "../components/Nav"
 
 const App = () => (
-  <main className="">
+  <main className="relative">
     <Nav/>
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero/>
@@ -13,7 +13,7 @@ const App = () => (
     <section className="padding">
       <SuperQuality/>
     </section>
-    <section className="padding">
+    <section className="padding-x py-10">
       <Services/>
     </section>
     <section className="padding">
